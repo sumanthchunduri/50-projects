@@ -1,1 +1,1 @@
-Photo from Unsplash
+Images are from Unsplash
