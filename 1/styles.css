@@ -45,3 +45,19 @@ img {
     width: 220px;
     height: 220px;
 }
+
+.footer {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer button {
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: slateblue;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
