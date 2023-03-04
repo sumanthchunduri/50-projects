@@ -6,12 +6,10 @@
 
 .header {
     background: slateblue;
-    height: 75vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 16px;
-    margin-right: 16px;
 }
 
 .header-h1 {
@@ -26,7 +24,8 @@
 }
 
 .content {
-    height: 30vh;
+    padding: 64px;
+    height: 20vh;
 }
 
 .content p {
@@ -37,9 +36,10 @@
     display: grid;
     gap: 8px;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 16px;
-    margin-bottom: 16px;
+    place-items: center;
+    margin-bottom: 32px;
 }
+
 
 img {
     width: 220px;
